@@ -4,7 +4,7 @@ import hashlib
 def md5_hash(any_file):
     with open(any_file) as datafile:
         for line in datafile:
-            md5_string = hashlib.md5(b'{line}')
+            md5_string = hashlib.md5(line.encode())
             final_string = md5_string.hexdigest()
             yield final_string
 

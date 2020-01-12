@@ -1,0 +1,12 @@
+DATE: 2020-01-12
+TIME: 02:45:24.050201
+NAME: md5_hash
+ARGS: (('datafile.txt',), {})
+RESULT: <generator object md5_hash at 0x01029B30>
+
+DATE: 2020-01-12
+TIME: 02:49:10.599283
+NAME: md5_hash
+ARGS: (('datafile.txt',), {})
+RESULT: <generator object md5_hash at 0x00B847B0>
+
